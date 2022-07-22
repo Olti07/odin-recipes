@@ -1,7 +1,36 @@
-* h1{
+html{
+    box-sizing: border-box;
+    background-color: #A2AAAD
+    ;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+h1{
     text-align: center;
 }
-.div{
-    color: red;
-    font-size: 30px;
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    text-decoration: none;
+}
+a{
+    color: white;
+}
+.taco{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    width: 300px;
+    height:auto;
+    background-color: cadetblue;
+    padding: 20px;
+    margin-top: 15px;
 }
